@@ -1,0 +1,84 @@
+[2024-10-21T17:19:28.905+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-10-21T17:19:28.937+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: DAG_filha.wait_principal scheduled__2024-10-21T03:02:00+00:00 [queued]>
+[2024-10-21T17:19:28.950+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: DAG_filha.wait_principal scheduled__2024-10-21T03:02:00+00:00 [queued]>
+[2024-10-21T17:19:28.951+0000] {taskinstance.py:2865} INFO - Starting attempt 1 of 1
+[2024-10-21T17:19:28.971+0000] {taskinstance.py:2888} INFO - Executing <Task(ExternalTaskSensor): wait_principal> on 2024-10-21 03:02:00+00:00
+[2024-10-21T17:19:28.981+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=589) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-10-21T17:19:28.983+0000] {standard_task_runner.py:72} INFO - Started process 614 to run task
+[2024-10-21T17:19:28.997+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'DAG_filha', 'wait_principal', 'scheduled__2024-10-21T03:02:00+00:00', '--job-id', '112', '--raw', '--subdir', 'DAGS_FOLDER/lesson_3_dag_filha.py', '--cfg-path', '/tmp/tmp3ryao7iu']
+[2024-10-21T17:19:29.009+0000] {standard_task_runner.py:105} INFO - Job 112: Subtask wait_principal
+[2024-10-21T17:19:29.163+0000] {task_command.py:467} INFO - Running <TaskInstance: DAG_filha.wait_principal scheduled__2024-10-21T03:02:00+00:00 [running]> on host 1da8eee663cb
+[2024-10-21T17:19:29.398+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='DAG_filha' AIRFLOW_CTX_TASK_ID='wait_principal' AIRFLOW_CTX_EXECUTION_DATE='2024-10-21T03:02:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-10-21T03:02:00+00:00'
+[2024-10-21T17:19:29.400+0000] {logging_mixin.py:190} INFO - Task instance is in running state
+[2024-10-21T17:19:29.404+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2024-10-21T17:19:29.405+0000] {logging_mixin.py:190} INFO - Current task name:wait_principal state:running start_date:2024-10-21 17:19:28.940477+00:00
+[2024-10-21T17:19:29.405+0000] {logging_mixin.py:190} INFO - Dag name:DAG_filha and current dag run status:running
+[2024-10-21T17:19:29.406+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-10-21T17:19:29.406+0000] {baseoperator.py:405} WARNING - ExternalTaskSensor.execute cannot be called outside TaskInstance!
+[2024-10-21T17:19:29.431+0000] {external_task.py:274} INFO - Poking for DAG 'python_principal' on 2024-10-21T02:02:00+00:00 ... 
+[2024-10-21T17:19:29.431+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/utils/session.py:97: DeprecationWarning: This method is deprecated and will be removed in future.
+  return func(*args, session=session, **kwargs)
+
+[2024-10-21T17:19:29.557+0000] {taskinstance.py:309} INFO - Rescheduling task, marking task as UP_FOR_RESCHEDULE
+[2024-10-21T17:19:29.561+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-10-21T17:19:29.583+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-10-21T17:19:29.672+0000] {taskinstance.py:3900} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-10-21T17:19:29.677+0000] {local_task_job_runner.py:245} INFO - ::endgroup::
+[2024-10-21T17:20:01.379+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-10-21T17:20:01.398+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: DAG_filha.wait_principal scheduled__2024-10-21T03:02:00+00:00 [queued]>
+[2024-10-21T17:20:01.409+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: DAG_filha.wait_principal scheduled__2024-10-21T03:02:00+00:00 [queued]>
+[2024-10-21T17:20:01.410+0000] {taskinstance.py:2865} INFO - Starting attempt 1 of 1
+[2024-10-21T17:20:01.429+0000] {taskinstance.py:2888} INFO - Executing <Task(ExternalTaskSensor): wait_principal> on 2024-10-21 03:02:00+00:00
+[2024-10-21T17:20:01.438+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=819) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-10-21T17:20:01.440+0000] {standard_task_runner.py:72} INFO - Started process 829 to run task
+[2024-10-21T17:20:01.440+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'DAG_filha', 'wait_principal', 'scheduled__2024-10-21T03:02:00+00:00', '--job-id', '166', '--raw', '--subdir', 'DAGS_FOLDER/lesson_3_dag_filha.py', '--cfg-path', '/tmp/tmp60sa3n9_']
+[2024-10-21T17:20:01.442+0000] {standard_task_runner.py:105} INFO - Job 166: Subtask wait_principal
+[2024-10-21T17:20:01.510+0000] {task_command.py:467} INFO - Running <TaskInstance: DAG_filha.wait_principal scheduled__2024-10-21T03:02:00+00:00 [running]> on host 1da8eee663cb
+[2024-10-21T17:20:01.603+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='DAG_filha' AIRFLOW_CTX_TASK_ID='wait_principal' AIRFLOW_CTX_EXECUTION_DATE='2024-10-21T03:02:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-10-21T03:02:00+00:00'
+[2024-10-21T17:20:01.605+0000] {logging_mixin.py:190} INFO - Task instance is in running state
+[2024-10-21T17:20:01.606+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2024-10-21T17:20:01.606+0000] {logging_mixin.py:190} INFO - Current task name:wait_principal state:running start_date:2024-10-21 17:20:01.399475+00:00
+[2024-10-21T17:20:01.607+0000] {logging_mixin.py:190} INFO - Dag name:DAG_filha and current dag run status:running
+[2024-10-21T17:20:01.607+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-10-21T17:20:01.608+0000] {baseoperator.py:405} WARNING - ExternalTaskSensor.execute cannot be called outside TaskInstance!
+[2024-10-21T17:20:01.617+0000] {external_task.py:274} INFO - Poking for DAG 'python_principal' on 2024-10-21T02:02:00+00:00 ... 
+[2024-10-21T17:20:01.618+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/utils/session.py:97: DeprecationWarning: This method is deprecated and will be removed in future.
+  return func(*args, session=session, **kwargs)
+
+[2024-10-21T17:20:01.706+0000] {taskinstance.py:309} INFO - Rescheduling task, marking task as UP_FOR_RESCHEDULE
+[2024-10-21T17:20:01.707+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-10-21T17:20:01.736+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-10-21T17:20:01.771+0000] {taskinstance.py:3900} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-10-21T17:20:01.775+0000] {local_task_job_runner.py:245} INFO - ::endgroup::
+[2024-10-21T17:20:33.554+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-10-21T17:20:33.574+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: DAG_filha.wait_principal scheduled__2024-10-21T03:02:00+00:00 [queued]>
+[2024-10-21T17:20:33.584+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: DAG_filha.wait_principal scheduled__2024-10-21T03:02:00+00:00 [queued]>
+[2024-10-21T17:20:33.585+0000] {taskinstance.py:2865} INFO - Starting attempt 1 of 1
+[2024-10-21T17:20:33.602+0000] {taskinstance.py:2888} INFO - Executing <Task(ExternalTaskSensor): wait_principal> on 2024-10-21 03:02:00+00:00
+[2024-10-21T17:20:33.612+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=991) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-10-21T17:20:33.614+0000] {standard_task_runner.py:72} INFO - Started process 1005 to run task
+[2024-10-21T17:20:33.615+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'DAG_filha', 'wait_principal', 'scheduled__2024-10-21T03:02:00+00:00', '--job-id', '208', '--raw', '--subdir', 'DAGS_FOLDER/lesson_3_dag_filha.py', '--cfg-path', '/tmp/tmpu8s4xcpd']
+[2024-10-21T17:20:33.617+0000] {standard_task_runner.py:105} INFO - Job 208: Subtask wait_principal
+[2024-10-21T17:20:33.678+0000] {task_command.py:467} INFO - Running <TaskInstance: DAG_filha.wait_principal scheduled__2024-10-21T03:02:00+00:00 [running]> on host 1da8eee663cb
+[2024-10-21T17:20:33.771+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='DAG_filha' AIRFLOW_CTX_TASK_ID='wait_principal' AIRFLOW_CTX_EXECUTION_DATE='2024-10-21T03:02:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-10-21T03:02:00+00:00'
+[2024-10-21T17:20:33.774+0000] {logging_mixin.py:190} INFO - Task instance is in running state
+[2024-10-21T17:20:33.775+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2024-10-21T17:20:33.777+0000] {logging_mixin.py:190} INFO - Current task name:wait_principal state:running start_date:2024-10-21 17:20:33.575056+00:00
+[2024-10-21T17:20:33.777+0000] {logging_mixin.py:190} INFO - Dag name:DAG_filha and current dag run status:running
+[2024-10-21T17:20:33.777+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-10-21T17:20:33.778+0000] {baseoperator.py:405} WARNING - ExternalTaskSensor.execute cannot be called outside TaskInstance!
+[2024-10-21T17:20:33.789+0000] {external_task.py:274} INFO - Poking for DAG 'python_principal' on 2024-10-21T02:02:00+00:00 ... 
+[2024-10-21T17:20:33.790+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/utils/session.py:97: DeprecationWarning: This method is deprecated and will be removed in future.
+  return func(*args, session=session, **kwargs)
+
+[2024-10-21T17:20:33.841+0000] {taskinstance.py:309} INFO - Rescheduling task, marking task as UP_FOR_RESCHEDULE
+[2024-10-21T17:20:33.844+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-10-21T17:20:33.873+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-10-21T17:20:33.916+0000] {taskinstance.py:3900} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-10-21T17:20:33.919+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

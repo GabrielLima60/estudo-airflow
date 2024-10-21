@@ -1,0 +1,31 @@
+[2024-10-21T17:30:34.799+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-10-21T17:30:34.855+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: DAG_LatestOnlyOperator.latest scheduled__2024-10-21T04:37:00+00:00 [queued]>
+[2024-10-21T17:30:34.878+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: DAG_LatestOnlyOperator.latest scheduled__2024-10-21T04:37:00+00:00 [queued]>
+[2024-10-21T17:30:34.881+0000] {taskinstance.py:2865} INFO - Starting attempt 1 of 1
+[2024-10-21T17:30:34.935+0000] {taskinstance.py:2888} INFO - Executing <Task(LatestOnlyOperator): latest> on 2024-10-21 04:37:00+00:00
+[2024-10-21T17:30:34.966+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=1644) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-10-21T17:30:34.975+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'DAG_LatestOnlyOperator', 'latest', 'scheduled__2024-10-21T04:37:00+00:00', '--job-id', '339', '--raw', '--subdir', 'DAGS_FOLDER/lesson_4_dag_latest.py', '--cfg-path', '/tmp/tmp8moaieqn']
+[2024-10-21T17:30:34.977+0000] {standard_task_runner.py:72} INFO - Started process 1665 to run task
+[2024-10-21T17:30:34.977+0000] {standard_task_runner.py:105} INFO - Job 339: Subtask latest
+[2024-10-21T17:30:35.174+0000] {task_command.py:467} INFO - Running <TaskInstance: DAG_LatestOnlyOperator.latest scheduled__2024-10-21T04:37:00+00:00 [running]> on host 1da8eee663cb
+[2024-10-21T17:30:35.441+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='DAG_LatestOnlyOperator' AIRFLOW_CTX_TASK_ID='latest' AIRFLOW_CTX_EXECUTION_DATE='2024-10-21T04:37:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-10-21T04:37:00+00:00'
+[2024-10-21T17:30:35.461+0000] {logging_mixin.py:190} INFO - Task instance is in running state
+[2024-10-21T17:30:35.470+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2024-10-21T17:30:35.471+0000] {logging_mixin.py:190} INFO - Current task name:latest state:running start_date:2024-10-21 17:30:34.857119+00:00
+[2024-10-21T17:30:35.471+0000] {logging_mixin.py:190} INFO - Dag name:DAG_LatestOnlyOperator and current dag run status:running
+[2024-10-21T17:30:35.472+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-10-21T17:30:35.474+0000] {latest_only.py:63} INFO - Checking latest only with left_window: 2024-10-21 04:38:00+00:00 right_window: 2024-10-21 04:39:00+00:00 now: 2024-10-21 17:30:35.474099+00:00
+[2024-10-21T17:30:35.476+0000] {latest_only.py:71} INFO - Not latest execution, skipping downstream.
+[2024-10-21T17:30:35.477+0000] {branch.py:38} INFO - Branch into []
+[2024-10-21T17:30:35.478+0000] {skipmixin.py:230} INFO - Following branch ()
+[2024-10-21T17:30:35.502+0000] {skipmixin.py:278} INFO - Skipping tasks [('python_principal', -1)]
+[2024-10-21T17:30:35.654+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-10-21T17:30:35.656+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=DAG_LatestOnlyOperator, task_id=latest, run_id=scheduled__2024-10-21T04:37:00+00:00, execution_date=20241021T043700, start_date=20241021T173034, end_date=20241021T173035
+[2024-10-21T17:30:35.708+0000] {logging_mixin.py:190} INFO - Task instance in success state
+[2024-10-21T17:30:35.728+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2024-10-21T17:30:35.741+0000] {logging_mixin.py:190} INFO - Dag name:DAG_LatestOnlyOperator queued_at:2024-10-21 17:30:32.077216+00:00
+[2024-10-21T17:30:35.741+0000] {logging_mixin.py:190} INFO - Task hostname:1da8eee663cb operator:LatestOnlyOperator
+[2024-10-21T17:30:35.770+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-10-21T17:30:35.793+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

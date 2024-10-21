@@ -1,0 +1,32 @@
+[2024-10-21T17:29:34.327+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-10-21T17:29:34.365+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: DAG_LatestOnlyOperator.latest scheduled__2024-10-21T03:20:00+00:00 [queued]>
+[2024-10-21T17:29:34.392+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: DAG_LatestOnlyOperator.latest scheduled__2024-10-21T03:20:00+00:00 [queued]>
+[2024-10-21T17:29:34.401+0000] {taskinstance.py:2865} INFO - Starting attempt 1 of 1
+[2024-10-21T17:29:34.449+0000] {taskinstance.py:2888} INFO - Executing <Task(LatestOnlyOperator): latest> on 2024-10-21 03:20:00+00:00
+[2024-10-21T17:29:34.465+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=1279) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-10-21T17:29:34.467+0000] {standard_task_runner.py:72} INFO - Started process 1304 to run task
+[2024-10-21T17:29:34.478+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'DAG_LatestOnlyOperator', 'latest', 'scheduled__2024-10-21T03:20:00+00:00', '--job-id', '253', '--raw', '--subdir', 'DAGS_FOLDER/lesson_4_dag_latest.py', '--cfg-path', '/tmp/tmpxwdg891k']
+[2024-10-21T17:29:34.480+0000] {standard_task_runner.py:105} INFO - Job 253: Subtask latest
+[2024-10-21T17:29:34.590+0000] {task_command.py:467} INFO - Running <TaskInstance: DAG_LatestOnlyOperator.latest scheduled__2024-10-21T03:20:00+00:00 [running]> on host 1da8eee663cb
+[2024-10-21T17:29:34.793+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='DAG_LatestOnlyOperator' AIRFLOW_CTX_TASK_ID='latest' AIRFLOW_CTX_EXECUTION_DATE='2024-10-21T03:20:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-10-21T03:20:00+00:00'
+[2024-10-21T17:29:34.800+0000] {logging_mixin.py:190} INFO - Task instance is in running state
+[2024-10-21T17:29:34.806+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2024-10-21T17:29:34.807+0000] {logging_mixin.py:190} INFO - Current task name:latest state:running start_date:2024-10-21 17:29:34.368004+00:00
+[2024-10-21T17:29:34.807+0000] {logging_mixin.py:190} INFO - Dag name:DAG_LatestOnlyOperator and current dag run status:running
+[2024-10-21T17:29:34.808+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-10-21T17:29:34.816+0000] {latest_only.py:63} INFO - Checking latest only with left_window: 2024-10-21 03:21:00+00:00 right_window: 2024-10-21 03:22:00+00:00 now: 2024-10-21 17:29:34.816598+00:00
+[2024-10-21T17:29:34.817+0000] {latest_only.py:71} INFO - Not latest execution, skipping downstream.
+[2024-10-21T17:29:34.835+0000] {branch.py:38} INFO - Branch into []
+[2024-10-21T17:29:34.837+0000] {skipmixin.py:230} INFO - Following branch ()
+[2024-10-21T17:29:34.854+0000] {skipmixin.py:278} INFO - Skipping tasks [('python_principal', -1)]
+[2024-10-21T17:29:34.931+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-10-21T17:29:34.932+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=DAG_LatestOnlyOperator, task_id=latest, run_id=scheduled__2024-10-21T03:20:00+00:00, execution_date=20241021T032000, start_date=20241021T172934, end_date=20241021T172934
+[2024-10-21T17:29:35.026+0000] {logging_mixin.py:190} INFO - Task instance in success state
+[2024-10-21T17:29:35.026+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2024-10-21T17:29:35.027+0000] {logging_mixin.py:190} INFO - Dag name:DAG_LatestOnlyOperator queued_at:2024-10-21 17:29:31.720217+00:00
+[2024-10-21T17:29:35.027+0000] {logging_mixin.py:190} INFO - Task hostname:1da8eee663cb operator:LatestOnlyOperator
+[2024-10-21T17:29:35.069+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-10-21T17:29:35.105+0000] {taskinstance.py:3900} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-10-21T17:29:35.108+0000] {local_task_job_runner.py:245} INFO - ::endgroup::
