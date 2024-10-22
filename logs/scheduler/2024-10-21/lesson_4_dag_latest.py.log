@@ -84,3 +84,24 @@ TypeError: 'module' object is not callable
 [2024-10-21T17:32:11.273+0000] {logging_mixin.py:190} INFO - [2024-10-21T17:32:11.272+0000] {dag.py:3239} INFO - Sync 1 DAGs
 [2024-10-21T17:32:11.292+0000] {logging_mixin.py:190} INFO - [2024-10-21T17:32:11.291+0000] {dag.py:4180} INFO - Setting next_dagrun for DAG_LatestOnlyOperator to 2024-10-21 18:00:00+00:00, run_after=2024-10-22 18:00:00+00:00
 [2024-10-21T17:32:11.307+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lesson_4_dag_latest.py took 0.069 seconds
+[2024-10-21T17:32:41.505+0000] {processor.py:186} INFO - Started process (PID=5466) to work on /opt/airflow/dags/lesson_4_dag_latest.py
+[2024-10-21T17:32:41.506+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lesson_4_dag_latest.py for tasks to queue
+[2024-10-21T17:32:41.507+0000] {logging_mixin.py:190} INFO - [2024-10-21T17:32:41.507+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lesson_4_dag_latest.py
+[2024-10-21T17:32:41.521+0000] {processor.py:925} INFO - DAG(s) 'DAG_LatestOnlyOperator' retrieved from /opt/airflow/dags/lesson_4_dag_latest.py
+[2024-10-21T17:32:41.536+0000] {logging_mixin.py:190} INFO - [2024-10-21T17:32:41.536+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-21T17:32:41.555+0000] {logging_mixin.py:190} INFO - [2024-10-21T17:32:41.554+0000] {dag.py:4180} INFO - Setting next_dagrun for DAG_LatestOnlyOperator to 2024-10-21 18:00:00+00:00, run_after=2024-10-22 18:00:00+00:00
+[2024-10-21T17:32:41.571+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lesson_4_dag_latest.py took 0.071 seconds
+[2024-10-21T17:33:11.998+0000] {processor.py:186} INFO - Started process (PID=5536) to work on /opt/airflow/dags/lesson_4_dag_latest.py
+[2024-10-21T17:33:11.999+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lesson_4_dag_latest.py for tasks to queue
+[2024-10-21T17:33:12.000+0000] {logging_mixin.py:190} INFO - [2024-10-21T17:33:12.000+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lesson_4_dag_latest.py
+[2024-10-21T17:33:12.013+0000] {processor.py:925} INFO - DAG(s) 'DAG_LatestOnlyOperator' retrieved from /opt/airflow/dags/lesson_4_dag_latest.py
+[2024-10-21T17:33:12.029+0000] {logging_mixin.py:190} INFO - [2024-10-21T17:33:12.028+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-21T17:33:12.047+0000] {logging_mixin.py:190} INFO - [2024-10-21T17:33:12.047+0000] {dag.py:4180} INFO - Setting next_dagrun for DAG_LatestOnlyOperator to 2024-10-21 18:00:00+00:00, run_after=2024-10-22 18:00:00+00:00
+[2024-10-21T17:33:12.064+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lesson_4_dag_latest.py took 0.072 seconds
+[2024-10-21T17:33:42.238+0000] {processor.py:186} INFO - Started process (PID=5606) to work on /opt/airflow/dags/lesson_4_dag_latest.py
+[2024-10-21T17:33:42.239+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lesson_4_dag_latest.py for tasks to queue
+[2024-10-21T17:33:42.240+0000] {logging_mixin.py:190} INFO - [2024-10-21T17:33:42.240+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lesson_4_dag_latest.py
+[2024-10-21T17:33:42.254+0000] {processor.py:925} INFO - DAG(s) 'DAG_LatestOnlyOperator' retrieved from /opt/airflow/dags/lesson_4_dag_latest.py
+[2024-10-21T17:33:42.270+0000] {logging_mixin.py:190} INFO - [2024-10-21T17:33:42.270+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-21T17:33:42.291+0000] {logging_mixin.py:190} INFO - [2024-10-21T17:33:42.291+0000] {dag.py:4180} INFO - Setting next_dagrun for DAG_LatestOnlyOperator to 2024-10-21 18:00:00+00:00, run_after=2024-10-22 18:00:00+00:00
+[2024-10-21T17:33:42.308+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lesson_4_dag_latest.py took 0.075 seconds

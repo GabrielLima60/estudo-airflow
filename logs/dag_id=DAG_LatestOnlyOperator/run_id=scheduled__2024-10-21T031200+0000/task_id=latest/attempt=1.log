@@ -30,3 +30,6 @@
 [2024-10-21T17:29:27.741+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
 [2024-10-21T17:29:27.761+0000] {taskinstance.py:3900} INFO - 0 downstream tasks scheduled from follow-on schedule check
 [2024-10-21T17:29:27.764+0000] {local_task_job_runner.py:245} INFO - ::endgroup::
+[2024-10-22T23:02:23.752+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-10-22T23:02:23.812+0000] {taskinstance.py:2602} INFO - Dependencies not met for <TaskInstance: DAG_LatestOnlyOperator.latest scheduled__2024-10-21T03:12:00+00:00 [success]>, dependency 'Task Instance State' FAILED: Task is in the 'success' state.
+[2024-10-22T23:02:23.860+0000] {local_task_job_runner.py:166} INFO - Task is not able to be run

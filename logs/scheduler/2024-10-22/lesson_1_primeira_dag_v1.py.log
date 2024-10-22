@@ -1,0 +1,287 @@
+[2024-10-22T23:02:36.493+0000] {processor.py:186} INFO - Started process (PID=54) to work on /opt/airflow/dags/lesson_1_primeira_dag_v1.py
+[2024-10-22T23:02:36.494+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lesson_1_primeira_dag_v1.py for tasks to queue
+[2024-10-22T23:02:36.500+0000] {logging_mixin.py:190} INFO - [2024-10-22T23:02:36.500+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lesson_1_primeira_dag_v1.py
+[2024-10-22T23:02:36.517+0000] {processor.py:925} INFO - DAG(s) 'primeira_DAG_v1' retrieved from /opt/airflow/dags/lesson_1_primeira_dag_v1.py
+[2024-10-22T23:02:36.535+0000] {logging_mixin.py:190} INFO - [2024-10-22T23:02:36.534+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-22T23:02:36.553+0000] {logging_mixin.py:190} INFO - [2024-10-22T23:02:36.553+0000] {dag.py:4180} INFO - Setting next_dagrun for primeira_DAG_v1 to 2024-10-20 00:00:00+00:00, run_after=2024-10-21 00:00:00+00:00
+[2024-10-22T23:02:36.585+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lesson_1_primeira_dag_v1.py took 0.096 seconds
+[2024-10-22T23:03:06.701+0000] {processor.py:186} INFO - Started process (PID=124) to work on /opt/airflow/dags/lesson_1_primeira_dag_v1.py
+[2024-10-22T23:03:06.702+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lesson_1_primeira_dag_v1.py for tasks to queue
+[2024-10-22T23:03:06.704+0000] {logging_mixin.py:190} INFO - [2024-10-22T23:03:06.703+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lesson_1_primeira_dag_v1.py
+[2024-10-22T23:03:06.717+0000] {processor.py:925} INFO - DAG(s) 'primeira_DAG_v1' retrieved from /opt/airflow/dags/lesson_1_primeira_dag_v1.py
+[2024-10-22T23:03:06.735+0000] {logging_mixin.py:190} INFO - [2024-10-22T23:03:06.735+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-22T23:03:06.755+0000] {logging_mixin.py:190} INFO - [2024-10-22T23:03:06.755+0000] {dag.py:4180} INFO - Setting next_dagrun for primeira_DAG_v1 to 2024-10-20 00:00:00+00:00, run_after=2024-10-21 00:00:00+00:00
+[2024-10-22T23:03:06.772+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lesson_1_primeira_dag_v1.py took 0.078 seconds
+[2024-10-22T23:03:37.552+0000] {processor.py:186} INFO - Started process (PID=194) to work on /opt/airflow/dags/lesson_1_primeira_dag_v1.py
+[2024-10-22T23:03:37.553+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lesson_1_primeira_dag_v1.py for tasks to queue
+[2024-10-22T23:03:37.555+0000] {logging_mixin.py:190} INFO - [2024-10-22T23:03:37.555+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lesson_1_primeira_dag_v1.py
+[2024-10-22T23:03:37.568+0000] {processor.py:925} INFO - DAG(s) 'primeira_DAG_v1' retrieved from /opt/airflow/dags/lesson_1_primeira_dag_v1.py
+[2024-10-22T23:03:37.584+0000] {logging_mixin.py:190} INFO - [2024-10-22T23:03:37.583+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-22T23:03:37.605+0000] {logging_mixin.py:190} INFO - [2024-10-22T23:03:37.605+0000] {dag.py:4180} INFO - Setting next_dagrun for primeira_DAG_v1 to 2024-10-20 00:00:00+00:00, run_after=2024-10-21 00:00:00+00:00
+[2024-10-22T23:03:37.625+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lesson_1_primeira_dag_v1.py took 0.077 seconds
+[2024-10-22T23:04:08.168+0000] {processor.py:186} INFO - Started process (PID=264) to work on /opt/airflow/dags/lesson_1_primeira_dag_v1.py
+[2024-10-22T23:04:08.169+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lesson_1_primeira_dag_v1.py for tasks to queue
+[2024-10-22T23:04:08.171+0000] {logging_mixin.py:190} INFO - [2024-10-22T23:04:08.171+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lesson_1_primeira_dag_v1.py
+[2024-10-22T23:04:08.184+0000] {processor.py:925} INFO - DAG(s) 'primeira_DAG_v1' retrieved from /opt/airflow/dags/lesson_1_primeira_dag_v1.py
+[2024-10-22T23:04:08.200+0000] {logging_mixin.py:190} INFO - [2024-10-22T23:04:08.200+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-22T23:04:08.221+0000] {logging_mixin.py:190} INFO - [2024-10-22T23:04:08.221+0000] {dag.py:4180} INFO - Setting next_dagrun for primeira_DAG_v1 to 2024-10-20 00:00:00+00:00, run_after=2024-10-21 00:00:00+00:00
+[2024-10-22T23:04:08.241+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lesson_1_primeira_dag_v1.py took 0.078 seconds
+[2024-10-22T23:04:38.430+0000] {processor.py:186} INFO - Started process (PID=334) to work on /opt/airflow/dags/lesson_1_primeira_dag_v1.py
+[2024-10-22T23:04:38.431+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lesson_1_primeira_dag_v1.py for tasks to queue
+[2024-10-22T23:04:38.433+0000] {logging_mixin.py:190} INFO - [2024-10-22T23:04:38.432+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lesson_1_primeira_dag_v1.py
+[2024-10-22T23:04:38.446+0000] {processor.py:925} INFO - DAG(s) 'primeira_DAG_v1' retrieved from /opt/airflow/dags/lesson_1_primeira_dag_v1.py
+[2024-10-22T23:04:38.465+0000] {logging_mixin.py:190} INFO - [2024-10-22T23:04:38.464+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-22T23:04:38.486+0000] {logging_mixin.py:190} INFO - [2024-10-22T23:04:38.485+0000] {dag.py:4180} INFO - Setting next_dagrun for primeira_DAG_v1 to 2024-10-20 00:00:00+00:00, run_after=2024-10-21 00:00:00+00:00
+[2024-10-22T23:04:38.502+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lesson_1_primeira_dag_v1.py took 0.079 seconds
+[2024-10-22T23:05:08.705+0000] {processor.py:186} INFO - Started process (PID=404) to work on /opt/airflow/dags/lesson_1_primeira_dag_v1.py
+[2024-10-22T23:05:08.706+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lesson_1_primeira_dag_v1.py for tasks to queue
+[2024-10-22T23:05:08.708+0000] {logging_mixin.py:190} INFO - [2024-10-22T23:05:08.708+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lesson_1_primeira_dag_v1.py
+[2024-10-22T23:05:08.721+0000] {processor.py:925} INFO - DAG(s) 'primeira_DAG_v1' retrieved from /opt/airflow/dags/lesson_1_primeira_dag_v1.py
+[2024-10-22T23:05:08.736+0000] {logging_mixin.py:190} INFO - [2024-10-22T23:05:08.736+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-22T23:05:08.754+0000] {logging_mixin.py:190} INFO - [2024-10-22T23:05:08.754+0000] {dag.py:4180} INFO - Setting next_dagrun for primeira_DAG_v1 to 2024-10-20 00:00:00+00:00, run_after=2024-10-21 00:00:00+00:00
+[2024-10-22T23:05:08.781+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lesson_1_primeira_dag_v1.py took 0.081 seconds
+[2024-10-22T23:05:39.290+0000] {processor.py:186} INFO - Started process (PID=480) to work on /opt/airflow/dags/lesson_1_primeira_dag_v1.py
+[2024-10-22T23:05:39.291+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lesson_1_primeira_dag_v1.py for tasks to queue
+[2024-10-22T23:05:39.293+0000] {logging_mixin.py:190} INFO - [2024-10-22T23:05:39.293+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lesson_1_primeira_dag_v1.py
+[2024-10-22T23:05:39.310+0000] {processor.py:925} INFO - DAG(s) 'primeira_DAG_v1' retrieved from /opt/airflow/dags/lesson_1_primeira_dag_v1.py
+[2024-10-22T23:05:39.327+0000] {logging_mixin.py:190} INFO - [2024-10-22T23:05:39.327+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-22T23:05:39.346+0000] {logging_mixin.py:190} INFO - [2024-10-22T23:05:39.346+0000] {dag.py:4180} INFO - Setting next_dagrun for primeira_DAG_v1 to 2024-10-20 00:00:00+00:00, run_after=2024-10-21 00:00:00+00:00
+[2024-10-22T23:05:39.365+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lesson_1_primeira_dag_v1.py took 0.079 seconds
+[2024-10-22T23:06:09.757+0000] {processor.py:186} INFO - Started process (PID=550) to work on /opt/airflow/dags/lesson_1_primeira_dag_v1.py
+[2024-10-22T23:06:09.758+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lesson_1_primeira_dag_v1.py for tasks to queue
+[2024-10-22T23:06:09.760+0000] {logging_mixin.py:190} INFO - [2024-10-22T23:06:09.759+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lesson_1_primeira_dag_v1.py
+[2024-10-22T23:06:09.776+0000] {processor.py:925} INFO - DAG(s) 'primeira_DAG_v1' retrieved from /opt/airflow/dags/lesson_1_primeira_dag_v1.py
+[2024-10-22T23:06:09.795+0000] {logging_mixin.py:190} INFO - [2024-10-22T23:06:09.795+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-22T23:06:09.814+0000] {logging_mixin.py:190} INFO - [2024-10-22T23:06:09.814+0000] {dag.py:4180} INFO - Setting next_dagrun for primeira_DAG_v1 to 2024-10-20 00:00:00+00:00, run_after=2024-10-21 00:00:00+00:00
+[2024-10-22T23:06:09.834+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lesson_1_primeira_dag_v1.py took 0.082 seconds
+[2024-10-22T23:06:40.219+0000] {processor.py:186} INFO - Started process (PID=620) to work on /opt/airflow/dags/lesson_1_primeira_dag_v1.py
+[2024-10-22T23:06:40.220+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lesson_1_primeira_dag_v1.py for tasks to queue
+[2024-10-22T23:06:40.223+0000] {logging_mixin.py:190} INFO - [2024-10-22T23:06:40.222+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lesson_1_primeira_dag_v1.py
+[2024-10-22T23:06:40.239+0000] {processor.py:925} INFO - DAG(s) 'primeira_DAG_v1' retrieved from /opt/airflow/dags/lesson_1_primeira_dag_v1.py
+[2024-10-22T23:06:40.256+0000] {logging_mixin.py:190} INFO - [2024-10-22T23:06:40.256+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-22T23:06:40.288+0000] {logging_mixin.py:190} INFO - [2024-10-22T23:06:40.288+0000] {dag.py:4180} INFO - Setting next_dagrun for primeira_DAG_v1 to 2024-10-20 00:00:00+00:00, run_after=2024-10-21 00:00:00+00:00
+[2024-10-22T23:06:40.308+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lesson_1_primeira_dag_v1.py took 0.095 seconds
+[2024-10-22T23:07:10.450+0000] {processor.py:186} INFO - Started process (PID=691) to work on /opt/airflow/dags/lesson_1_primeira_dag_v1.py
+[2024-10-22T23:07:10.451+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lesson_1_primeira_dag_v1.py for tasks to queue
+[2024-10-22T23:07:10.456+0000] {logging_mixin.py:190} INFO - [2024-10-22T23:07:10.455+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lesson_1_primeira_dag_v1.py
+[2024-10-22T23:07:10.471+0000] {processor.py:925} INFO - DAG(s) 'primeira_DAG_v1' retrieved from /opt/airflow/dags/lesson_1_primeira_dag_v1.py
+[2024-10-22T23:07:10.488+0000] {logging_mixin.py:190} INFO - [2024-10-22T23:07:10.488+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-22T23:07:10.508+0000] {logging_mixin.py:190} INFO - [2024-10-22T23:07:10.508+0000] {dag.py:4180} INFO - Setting next_dagrun for primeira_DAG_v1 to 2024-10-20 00:00:00+00:00, run_after=2024-10-21 00:00:00+00:00
+[2024-10-22T23:07:10.527+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lesson_1_primeira_dag_v1.py took 0.084 seconds
+[2024-10-22T23:07:41.418+0000] {processor.py:186} INFO - Started process (PID=761) to work on /opt/airflow/dags/lesson_1_primeira_dag_v1.py
+[2024-10-22T23:07:41.419+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lesson_1_primeira_dag_v1.py for tasks to queue
+[2024-10-22T23:07:41.422+0000] {logging_mixin.py:190} INFO - [2024-10-22T23:07:41.421+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lesson_1_primeira_dag_v1.py
+[2024-10-22T23:07:41.437+0000] {processor.py:925} INFO - DAG(s) 'primeira_DAG_v1' retrieved from /opt/airflow/dags/lesson_1_primeira_dag_v1.py
+[2024-10-22T23:07:41.454+0000] {logging_mixin.py:190} INFO - [2024-10-22T23:07:41.453+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-22T23:07:41.475+0000] {logging_mixin.py:190} INFO - [2024-10-22T23:07:41.475+0000] {dag.py:4180} INFO - Setting next_dagrun for primeira_DAG_v1 to 2024-10-20 00:00:00+00:00, run_after=2024-10-21 00:00:00+00:00
+[2024-10-22T23:07:41.494+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lesson_1_primeira_dag_v1.py took 0.080 seconds
+[2024-10-22T23:08:11.944+0000] {processor.py:186} INFO - Started process (PID=831) to work on /opt/airflow/dags/lesson_1_primeira_dag_v1.py
+[2024-10-22T23:08:11.944+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lesson_1_primeira_dag_v1.py for tasks to queue
+[2024-10-22T23:08:11.947+0000] {logging_mixin.py:190} INFO - [2024-10-22T23:08:11.946+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lesson_1_primeira_dag_v1.py
+[2024-10-22T23:08:11.961+0000] {processor.py:925} INFO - DAG(s) 'primeira_DAG_v1' retrieved from /opt/airflow/dags/lesson_1_primeira_dag_v1.py
+[2024-10-22T23:08:11.978+0000] {logging_mixin.py:190} INFO - [2024-10-22T23:08:11.978+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-22T23:08:11.997+0000] {logging_mixin.py:190} INFO - [2024-10-22T23:08:11.997+0000] {dag.py:4180} INFO - Setting next_dagrun for primeira_DAG_v1 to 2024-10-20 00:00:00+00:00, run_after=2024-10-21 00:00:00+00:00
+[2024-10-22T23:08:12.014+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lesson_1_primeira_dag_v1.py took 0.076 seconds
+[2024-10-22T23:08:42.475+0000] {processor.py:186} INFO - Started process (PID=901) to work on /opt/airflow/dags/lesson_1_primeira_dag_v1.py
+[2024-10-22T23:08:42.476+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lesson_1_primeira_dag_v1.py for tasks to queue
+[2024-10-22T23:08:42.478+0000] {logging_mixin.py:190} INFO - [2024-10-22T23:08:42.478+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lesson_1_primeira_dag_v1.py
+[2024-10-22T23:08:42.492+0000] {processor.py:925} INFO - DAG(s) 'primeira_DAG_v1' retrieved from /opt/airflow/dags/lesson_1_primeira_dag_v1.py
+[2024-10-22T23:08:42.511+0000] {logging_mixin.py:190} INFO - [2024-10-22T23:08:42.510+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-22T23:08:42.532+0000] {logging_mixin.py:190} INFO - [2024-10-22T23:08:42.532+0000] {dag.py:4180} INFO - Setting next_dagrun for primeira_DAG_v1 to 2024-10-20 00:00:00+00:00, run_after=2024-10-21 00:00:00+00:00
+[2024-10-22T23:08:42.548+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lesson_1_primeira_dag_v1.py took 0.079 seconds
+[2024-10-22T23:09:13.139+0000] {processor.py:186} INFO - Started process (PID=971) to work on /opt/airflow/dags/lesson_1_primeira_dag_v1.py
+[2024-10-22T23:09:13.141+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lesson_1_primeira_dag_v1.py for tasks to queue
+[2024-10-22T23:09:13.143+0000] {logging_mixin.py:190} INFO - [2024-10-22T23:09:13.143+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lesson_1_primeira_dag_v1.py
+[2024-10-22T23:09:13.160+0000] {processor.py:925} INFO - DAG(s) 'primeira_DAG_v1' retrieved from /opt/airflow/dags/lesson_1_primeira_dag_v1.py
+[2024-10-22T23:09:13.175+0000] {logging_mixin.py:190} INFO - [2024-10-22T23:09:13.175+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-22T23:09:13.197+0000] {logging_mixin.py:190} INFO - [2024-10-22T23:09:13.197+0000] {dag.py:4180} INFO - Setting next_dagrun for primeira_DAG_v1 to 2024-10-20 00:00:00+00:00, run_after=2024-10-21 00:00:00+00:00
+[2024-10-22T23:09:13.251+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lesson_1_primeira_dag_v1.py took 0.118 seconds
+[2024-10-22T23:09:43.880+0000] {processor.py:186} INFO - Started process (PID=1041) to work on /opt/airflow/dags/lesson_1_primeira_dag_v1.py
+[2024-10-22T23:09:43.881+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lesson_1_primeira_dag_v1.py for tasks to queue
+[2024-10-22T23:09:43.883+0000] {logging_mixin.py:190} INFO - [2024-10-22T23:09:43.883+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lesson_1_primeira_dag_v1.py
+[2024-10-22T23:09:43.898+0000] {processor.py:925} INFO - DAG(s) 'primeira_DAG_v1' retrieved from /opt/airflow/dags/lesson_1_primeira_dag_v1.py
+[2024-10-22T23:09:43.913+0000] {logging_mixin.py:190} INFO - [2024-10-22T23:09:43.913+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-22T23:09:43.933+0000] {logging_mixin.py:190} INFO - [2024-10-22T23:09:43.933+0000] {dag.py:4180} INFO - Setting next_dagrun for primeira_DAG_v1 to 2024-10-20 00:00:00+00:00, run_after=2024-10-21 00:00:00+00:00
+[2024-10-22T23:09:43.952+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lesson_1_primeira_dag_v1.py took 0.079 seconds
+[2024-10-22T23:10:14.260+0000] {processor.py:186} INFO - Started process (PID=1111) to work on /opt/airflow/dags/lesson_1_primeira_dag_v1.py
+[2024-10-22T23:10:14.261+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lesson_1_primeira_dag_v1.py for tasks to queue
+[2024-10-22T23:10:14.263+0000] {logging_mixin.py:190} INFO - [2024-10-22T23:10:14.263+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lesson_1_primeira_dag_v1.py
+[2024-10-22T23:10:14.281+0000] {processor.py:925} INFO - DAG(s) 'primeira_DAG_v1' retrieved from /opt/airflow/dags/lesson_1_primeira_dag_v1.py
+[2024-10-22T23:10:14.297+0000] {logging_mixin.py:190} INFO - [2024-10-22T23:10:14.297+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-22T23:10:14.318+0000] {logging_mixin.py:190} INFO - [2024-10-22T23:10:14.317+0000] {dag.py:4180} INFO - Setting next_dagrun for primeira_DAG_v1 to 2024-10-20 00:00:00+00:00, run_after=2024-10-21 00:00:00+00:00
+[2024-10-22T23:10:14.337+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lesson_1_primeira_dag_v1.py took 0.083 seconds
+[2024-10-22T23:10:44.753+0000] {processor.py:186} INFO - Started process (PID=1181) to work on /opt/airflow/dags/lesson_1_primeira_dag_v1.py
+[2024-10-22T23:10:44.754+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lesson_1_primeira_dag_v1.py for tasks to queue
+[2024-10-22T23:10:44.756+0000] {logging_mixin.py:190} INFO - [2024-10-22T23:10:44.756+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lesson_1_primeira_dag_v1.py
+[2024-10-22T23:10:44.771+0000] {processor.py:925} INFO - DAG(s) 'primeira_DAG_v1' retrieved from /opt/airflow/dags/lesson_1_primeira_dag_v1.py
+[2024-10-22T23:10:44.786+0000] {logging_mixin.py:190} INFO - [2024-10-22T23:10:44.786+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-22T23:10:44.809+0000] {logging_mixin.py:190} INFO - [2024-10-22T23:10:44.809+0000] {dag.py:4180} INFO - Setting next_dagrun for primeira_DAG_v1 to 2024-10-20 00:00:00+00:00, run_after=2024-10-21 00:00:00+00:00
+[2024-10-22T23:10:44.831+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lesson_1_primeira_dag_v1.py took 0.083 seconds
+[2024-10-22T23:11:15.720+0000] {processor.py:186} INFO - Started process (PID=1251) to work on /opt/airflow/dags/lesson_1_primeira_dag_v1.py
+[2024-10-22T23:11:15.721+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lesson_1_primeira_dag_v1.py for tasks to queue
+[2024-10-22T23:11:15.723+0000] {logging_mixin.py:190} INFO - [2024-10-22T23:11:15.722+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lesson_1_primeira_dag_v1.py
+[2024-10-22T23:11:15.737+0000] {processor.py:925} INFO - DAG(s) 'primeira_DAG_v1' retrieved from /opt/airflow/dags/lesson_1_primeira_dag_v1.py
+[2024-10-22T23:11:15.753+0000] {logging_mixin.py:190} INFO - [2024-10-22T23:11:15.753+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-22T23:11:15.772+0000] {logging_mixin.py:190} INFO - [2024-10-22T23:11:15.772+0000] {dag.py:4180} INFO - Setting next_dagrun for primeira_DAG_v1 to 2024-10-20 00:00:00+00:00, run_after=2024-10-21 00:00:00+00:00
+[2024-10-22T23:11:15.790+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lesson_1_primeira_dag_v1.py took 0.075 seconds
+[2024-10-22T23:11:46.248+0000] {processor.py:186} INFO - Started process (PID=1321) to work on /opt/airflow/dags/lesson_1_primeira_dag_v1.py
+[2024-10-22T23:11:46.249+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lesson_1_primeira_dag_v1.py for tasks to queue
+[2024-10-22T23:11:46.251+0000] {logging_mixin.py:190} INFO - [2024-10-22T23:11:46.251+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lesson_1_primeira_dag_v1.py
+[2024-10-22T23:11:46.264+0000] {processor.py:925} INFO - DAG(s) 'primeira_DAG_v1' retrieved from /opt/airflow/dags/lesson_1_primeira_dag_v1.py
+[2024-10-22T23:11:46.279+0000] {logging_mixin.py:190} INFO - [2024-10-22T23:11:46.278+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-22T23:11:46.297+0000] {logging_mixin.py:190} INFO - [2024-10-22T23:11:46.296+0000] {dag.py:4180} INFO - Setting next_dagrun for primeira_DAG_v1 to 2024-10-20 00:00:00+00:00, run_after=2024-10-21 00:00:00+00:00
+[2024-10-22T23:11:46.314+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lesson_1_primeira_dag_v1.py took 0.071 seconds
+[2024-10-22T23:12:17.143+0000] {processor.py:186} INFO - Started process (PID=1391) to work on /opt/airflow/dags/lesson_1_primeira_dag_v1.py
+[2024-10-22T23:12:17.144+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lesson_1_primeira_dag_v1.py for tasks to queue
+[2024-10-22T23:12:17.146+0000] {logging_mixin.py:190} INFO - [2024-10-22T23:12:17.146+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lesson_1_primeira_dag_v1.py
+[2024-10-22T23:12:17.160+0000] {processor.py:925} INFO - DAG(s) 'primeira_DAG_v1' retrieved from /opt/airflow/dags/lesson_1_primeira_dag_v1.py
+[2024-10-22T23:12:17.175+0000] {logging_mixin.py:190} INFO - [2024-10-22T23:12:17.174+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-22T23:12:17.191+0000] {logging_mixin.py:190} INFO - [2024-10-22T23:12:17.191+0000] {dag.py:4180} INFO - Setting next_dagrun for primeira_DAG_v1 to 2024-10-20 00:00:00+00:00, run_after=2024-10-21 00:00:00+00:00
+[2024-10-22T23:12:17.210+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lesson_1_primeira_dag_v1.py took 0.071 seconds
+[2024-10-22T23:12:47.456+0000] {processor.py:186} INFO - Started process (PID=1461) to work on /opt/airflow/dags/lesson_1_primeira_dag_v1.py
+[2024-10-22T23:12:47.456+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lesson_1_primeira_dag_v1.py for tasks to queue
+[2024-10-22T23:12:47.458+0000] {logging_mixin.py:190} INFO - [2024-10-22T23:12:47.458+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lesson_1_primeira_dag_v1.py
+[2024-10-22T23:12:47.472+0000] {processor.py:925} INFO - DAG(s) 'primeira_DAG_v1' retrieved from /opt/airflow/dags/lesson_1_primeira_dag_v1.py
+[2024-10-22T23:12:47.490+0000] {logging_mixin.py:190} INFO - [2024-10-22T23:12:47.490+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-22T23:12:47.508+0000] {logging_mixin.py:190} INFO - [2024-10-22T23:12:47.508+0000] {dag.py:4180} INFO - Setting next_dagrun for primeira_DAG_v1 to 2024-10-20 00:00:00+00:00, run_after=2024-10-21 00:00:00+00:00
+[2024-10-22T23:12:47.526+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lesson_1_primeira_dag_v1.py took 0.076 seconds
+[2024-10-22T23:13:17.959+0000] {processor.py:186} INFO - Started process (PID=1531) to work on /opt/airflow/dags/lesson_1_primeira_dag_v1.py
+[2024-10-22T23:13:17.960+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lesson_1_primeira_dag_v1.py for tasks to queue
+[2024-10-22T23:13:17.962+0000] {logging_mixin.py:190} INFO - [2024-10-22T23:13:17.962+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lesson_1_primeira_dag_v1.py
+[2024-10-22T23:13:17.977+0000] {processor.py:925} INFO - DAG(s) 'primeira_DAG_v1' retrieved from /opt/airflow/dags/lesson_1_primeira_dag_v1.py
+[2024-10-22T23:13:17.993+0000] {logging_mixin.py:190} INFO - [2024-10-22T23:13:17.993+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-22T23:13:18.011+0000] {logging_mixin.py:190} INFO - [2024-10-22T23:13:18.011+0000] {dag.py:4180} INFO - Setting next_dagrun for primeira_DAG_v1 to 2024-10-20 00:00:00+00:00, run_after=2024-10-21 00:00:00+00:00
+[2024-10-22T23:13:18.031+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lesson_1_primeira_dag_v1.py took 0.077 seconds
+[2024-10-22T23:13:48.284+0000] {processor.py:186} INFO - Started process (PID=1602) to work on /opt/airflow/dags/lesson_1_primeira_dag_v1.py
+[2024-10-22T23:13:48.285+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lesson_1_primeira_dag_v1.py for tasks to queue
+[2024-10-22T23:13:48.287+0000] {logging_mixin.py:190} INFO - [2024-10-22T23:13:48.287+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lesson_1_primeira_dag_v1.py
+[2024-10-22T23:13:48.302+0000] {processor.py:925} INFO - DAG(s) 'primeira_DAG_v1' retrieved from /opt/airflow/dags/lesson_1_primeira_dag_v1.py
+[2024-10-22T23:13:48.319+0000] {logging_mixin.py:190} INFO - [2024-10-22T23:13:48.319+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-22T23:13:48.340+0000] {logging_mixin.py:190} INFO - [2024-10-22T23:13:48.340+0000] {dag.py:4180} INFO - Setting next_dagrun for primeira_DAG_v1 to 2024-10-20 00:00:00+00:00, run_after=2024-10-21 00:00:00+00:00
+[2024-10-22T23:13:48.359+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lesson_1_primeira_dag_v1.py took 0.081 seconds
+[2024-10-22T23:14:19.046+0000] {processor.py:186} INFO - Started process (PID=1672) to work on /opt/airflow/dags/lesson_1_primeira_dag_v1.py
+[2024-10-22T23:14:19.047+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lesson_1_primeira_dag_v1.py for tasks to queue
+[2024-10-22T23:14:19.049+0000] {logging_mixin.py:190} INFO - [2024-10-22T23:14:19.048+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lesson_1_primeira_dag_v1.py
+[2024-10-22T23:14:19.062+0000] {processor.py:925} INFO - DAG(s) 'primeira_DAG_v1' retrieved from /opt/airflow/dags/lesson_1_primeira_dag_v1.py
+[2024-10-22T23:14:19.080+0000] {logging_mixin.py:190} INFO - [2024-10-22T23:14:19.079+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-22T23:14:19.102+0000] {logging_mixin.py:190} INFO - [2024-10-22T23:14:19.101+0000] {dag.py:4180} INFO - Setting next_dagrun for primeira_DAG_v1 to 2024-10-20 00:00:00+00:00, run_after=2024-10-21 00:00:00+00:00
+[2024-10-22T23:14:19.120+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lesson_1_primeira_dag_v1.py took 0.080 seconds
+[2024-10-22T23:14:49.525+0000] {processor.py:186} INFO - Started process (PID=1743) to work on /opt/airflow/dags/lesson_1_primeira_dag_v1.py
+[2024-10-22T23:14:49.526+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lesson_1_primeira_dag_v1.py for tasks to queue
+[2024-10-22T23:14:49.529+0000] {logging_mixin.py:190} INFO - [2024-10-22T23:14:49.528+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lesson_1_primeira_dag_v1.py
+[2024-10-22T23:14:49.543+0000] {processor.py:925} INFO - DAG(s) 'primeira_DAG_v1' retrieved from /opt/airflow/dags/lesson_1_primeira_dag_v1.py
+[2024-10-22T23:14:49.559+0000] {logging_mixin.py:190} INFO - [2024-10-22T23:14:49.559+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-22T23:14:49.578+0000] {logging_mixin.py:190} INFO - [2024-10-22T23:14:49.578+0000] {dag.py:4180} INFO - Setting next_dagrun for primeira_DAG_v1 to 2024-10-20 00:00:00+00:00, run_after=2024-10-21 00:00:00+00:00
+[2024-10-22T23:14:49.598+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lesson_1_primeira_dag_v1.py took 0.078 seconds
+[2024-10-22T23:15:20.186+0000] {processor.py:186} INFO - Started process (PID=1813) to work on /opt/airflow/dags/lesson_1_primeira_dag_v1.py
+[2024-10-22T23:15:20.186+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lesson_1_primeira_dag_v1.py for tasks to queue
+[2024-10-22T23:15:20.188+0000] {logging_mixin.py:190} INFO - [2024-10-22T23:15:20.188+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lesson_1_primeira_dag_v1.py
+[2024-10-22T23:15:20.203+0000] {processor.py:925} INFO - DAG(s) 'primeira_DAG_v1' retrieved from /opt/airflow/dags/lesson_1_primeira_dag_v1.py
+[2024-10-22T23:15:20.218+0000] {logging_mixin.py:190} INFO - [2024-10-22T23:15:20.218+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-22T23:15:20.237+0000] {logging_mixin.py:190} INFO - [2024-10-22T23:15:20.236+0000] {dag.py:4180} INFO - Setting next_dagrun for primeira_DAG_v1 to 2024-10-20 00:00:00+00:00, run_after=2024-10-21 00:00:00+00:00
+[2024-10-22T23:15:20.255+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lesson_1_primeira_dag_v1.py took 0.074 seconds
+[2024-10-22T23:15:50.456+0000] {processor.py:186} INFO - Started process (PID=1883) to work on /opt/airflow/dags/lesson_1_primeira_dag_v1.py
+[2024-10-22T23:15:50.457+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lesson_1_primeira_dag_v1.py for tasks to queue
+[2024-10-22T23:15:50.460+0000] {logging_mixin.py:190} INFO - [2024-10-22T23:15:50.459+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lesson_1_primeira_dag_v1.py
+[2024-10-22T23:15:50.473+0000] {processor.py:925} INFO - DAG(s) 'primeira_DAG_v1' retrieved from /opt/airflow/dags/lesson_1_primeira_dag_v1.py
+[2024-10-22T23:15:50.489+0000] {logging_mixin.py:190} INFO - [2024-10-22T23:15:50.489+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-22T23:15:50.509+0000] {logging_mixin.py:190} INFO - [2024-10-22T23:15:50.508+0000] {dag.py:4180} INFO - Setting next_dagrun for primeira_DAG_v1 to 2024-10-20 00:00:00+00:00, run_after=2024-10-21 00:00:00+00:00
+[2024-10-22T23:15:50.526+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lesson_1_primeira_dag_v1.py took 0.074 seconds
+[2024-10-22T23:16:21.147+0000] {processor.py:186} INFO - Started process (PID=1954) to work on /opt/airflow/dags/lesson_1_primeira_dag_v1.py
+[2024-10-22T23:16:21.148+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lesson_1_primeira_dag_v1.py for tasks to queue
+[2024-10-22T23:16:21.149+0000] {logging_mixin.py:190} INFO - [2024-10-22T23:16:21.149+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lesson_1_primeira_dag_v1.py
+[2024-10-22T23:16:21.162+0000] {processor.py:925} INFO - DAG(s) 'primeira_DAG_v1' retrieved from /opt/airflow/dags/lesson_1_primeira_dag_v1.py
+[2024-10-22T23:16:21.177+0000] {logging_mixin.py:190} INFO - [2024-10-22T23:16:21.177+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-22T23:16:21.198+0000] {logging_mixin.py:190} INFO - [2024-10-22T23:16:21.197+0000] {dag.py:4180} INFO - Setting next_dagrun for primeira_DAG_v1 to 2024-10-20 00:00:00+00:00, run_after=2024-10-21 00:00:00+00:00
+[2024-10-22T23:16:21.214+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lesson_1_primeira_dag_v1.py took 0.072 seconds
+[2024-10-22T23:16:51.619+0000] {processor.py:186} INFO - Started process (PID=2024) to work on /opt/airflow/dags/lesson_1_primeira_dag_v1.py
+[2024-10-22T23:16:51.620+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lesson_1_primeira_dag_v1.py for tasks to queue
+[2024-10-22T23:16:51.622+0000] {logging_mixin.py:190} INFO - [2024-10-22T23:16:51.622+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lesson_1_primeira_dag_v1.py
+[2024-10-22T23:16:51.637+0000] {processor.py:925} INFO - DAG(s) 'primeira_DAG_v1' retrieved from /opt/airflow/dags/lesson_1_primeira_dag_v1.py
+[2024-10-22T23:16:51.653+0000] {logging_mixin.py:190} INFO - [2024-10-22T23:16:51.652+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-22T23:16:51.672+0000] {logging_mixin.py:190} INFO - [2024-10-22T23:16:51.671+0000] {dag.py:4180} INFO - Setting next_dagrun for primeira_DAG_v1 to 2024-10-20 00:00:00+00:00, run_after=2024-10-21 00:00:00+00:00
+[2024-10-22T23:16:51.690+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lesson_1_primeira_dag_v1.py took 0.075 seconds
+[2024-10-22T23:17:21.938+0000] {processor.py:186} INFO - Started process (PID=2094) to work on /opt/airflow/dags/lesson_1_primeira_dag_v1.py
+[2024-10-22T23:17:21.939+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lesson_1_primeira_dag_v1.py for tasks to queue
+[2024-10-22T23:17:21.942+0000] {logging_mixin.py:190} INFO - [2024-10-22T23:17:21.941+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lesson_1_primeira_dag_v1.py
+[2024-10-22T23:17:21.954+0000] {processor.py:925} INFO - DAG(s) 'primeira_DAG_v1' retrieved from /opt/airflow/dags/lesson_1_primeira_dag_v1.py
+[2024-10-22T23:17:21.969+0000] {logging_mixin.py:190} INFO - [2024-10-22T23:17:21.968+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-22T23:17:21.986+0000] {logging_mixin.py:190} INFO - [2024-10-22T23:17:21.986+0000] {dag.py:4180} INFO - Setting next_dagrun for primeira_DAG_v1 to 2024-10-20 00:00:00+00:00, run_after=2024-10-21 00:00:00+00:00
+[2024-10-22T23:17:22.005+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lesson_1_primeira_dag_v1.py took 0.073 seconds
+[2024-10-22T23:17:52.375+0000] {processor.py:186} INFO - Started process (PID=2166) to work on /opt/airflow/dags/lesson_1_primeira_dag_v1.py
+[2024-10-22T23:17:52.376+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lesson_1_primeira_dag_v1.py for tasks to queue
+[2024-10-22T23:17:52.378+0000] {logging_mixin.py:190} INFO - [2024-10-22T23:17:52.377+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lesson_1_primeira_dag_v1.py
+[2024-10-22T23:17:52.392+0000] {processor.py:925} INFO - DAG(s) 'primeira_DAG_v1' retrieved from /opt/airflow/dags/lesson_1_primeira_dag_v1.py
+[2024-10-22T23:17:52.407+0000] {logging_mixin.py:190} INFO - [2024-10-22T23:17:52.407+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-22T23:17:52.425+0000] {logging_mixin.py:190} INFO - [2024-10-22T23:17:52.425+0000] {dag.py:4180} INFO - Setting next_dagrun for primeira_DAG_v1 to 2024-10-20 00:00:00+00:00, run_after=2024-10-21 00:00:00+00:00
+[2024-10-22T23:17:52.442+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lesson_1_primeira_dag_v1.py took 0.072 seconds
+[2024-10-22T23:18:22.769+0000] {processor.py:186} INFO - Started process (PID=2237) to work on /opt/airflow/dags/lesson_1_primeira_dag_v1.py
+[2024-10-22T23:18:22.770+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lesson_1_primeira_dag_v1.py for tasks to queue
+[2024-10-22T23:18:22.772+0000] {logging_mixin.py:190} INFO - [2024-10-22T23:18:22.772+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lesson_1_primeira_dag_v1.py
+[2024-10-22T23:18:22.785+0000] {processor.py:925} INFO - DAG(s) 'primeira_DAG_v1' retrieved from /opt/airflow/dags/lesson_1_primeira_dag_v1.py
+[2024-10-22T23:18:22.800+0000] {logging_mixin.py:190} INFO - [2024-10-22T23:18:22.800+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-22T23:18:22.824+0000] {logging_mixin.py:190} INFO - [2024-10-22T23:18:22.824+0000] {dag.py:4180} INFO - Setting next_dagrun for primeira_DAG_v1 to 2024-10-20 00:00:00+00:00, run_after=2024-10-21 00:00:00+00:00
+[2024-10-22T23:18:22.842+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lesson_1_primeira_dag_v1.py took 0.079 seconds
+[2024-10-22T23:18:53.182+0000] {processor.py:186} INFO - Started process (PID=2308) to work on /opt/airflow/dags/lesson_1_primeira_dag_v1.py
+[2024-10-22T23:18:53.183+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lesson_1_primeira_dag_v1.py for tasks to queue
+[2024-10-22T23:18:53.185+0000] {logging_mixin.py:190} INFO - [2024-10-22T23:18:53.185+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lesson_1_primeira_dag_v1.py
+[2024-10-22T23:18:53.200+0000] {processor.py:925} INFO - DAG(s) 'primeira_DAG_v1' retrieved from /opt/airflow/dags/lesson_1_primeira_dag_v1.py
+[2024-10-22T23:18:53.215+0000] {logging_mixin.py:190} INFO - [2024-10-22T23:18:53.215+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-22T23:18:53.235+0000] {logging_mixin.py:190} INFO - [2024-10-22T23:18:53.235+0000] {dag.py:4180} INFO - Setting next_dagrun for primeira_DAG_v1 to 2024-10-20 00:00:00+00:00, run_after=2024-10-21 00:00:00+00:00
+[2024-10-22T23:18:53.250+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lesson_1_primeira_dag_v1.py took 0.073 seconds
+[2024-10-22T23:19:23.613+0000] {processor.py:186} INFO - Started process (PID=2379) to work on /opt/airflow/dags/lesson_1_primeira_dag_v1.py
+[2024-10-22T23:19:23.613+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lesson_1_primeira_dag_v1.py for tasks to queue
+[2024-10-22T23:19:23.616+0000] {logging_mixin.py:190} INFO - [2024-10-22T23:19:23.615+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lesson_1_primeira_dag_v1.py
+[2024-10-22T23:19:23.628+0000] {processor.py:925} INFO - DAG(s) 'primeira_DAG_v1' retrieved from /opt/airflow/dags/lesson_1_primeira_dag_v1.py
+[2024-10-22T23:19:23.645+0000] {logging_mixin.py:190} INFO - [2024-10-22T23:19:23.645+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-22T23:19:23.661+0000] {logging_mixin.py:190} INFO - [2024-10-22T23:19:23.661+0000] {dag.py:4180} INFO - Setting next_dagrun for primeira_DAG_v1 to 2024-10-20 00:00:00+00:00, run_after=2024-10-21 00:00:00+00:00
+[2024-10-22T23:19:23.678+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lesson_1_primeira_dag_v1.py took 0.070 seconds
+[2024-10-22T23:19:54.404+0000] {processor.py:186} INFO - Started process (PID=2450) to work on /opt/airflow/dags/lesson_1_primeira_dag_v1.py
+[2024-10-22T23:19:54.405+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lesson_1_primeira_dag_v1.py for tasks to queue
+[2024-10-22T23:19:54.407+0000] {logging_mixin.py:190} INFO - [2024-10-22T23:19:54.407+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lesson_1_primeira_dag_v1.py
+[2024-10-22T23:19:54.420+0000] {processor.py:925} INFO - DAG(s) 'primeira_DAG_v1' retrieved from /opt/airflow/dags/lesson_1_primeira_dag_v1.py
+[2024-10-22T23:19:54.435+0000] {logging_mixin.py:190} INFO - [2024-10-22T23:19:54.435+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-22T23:19:54.452+0000] {logging_mixin.py:190} INFO - [2024-10-22T23:19:54.451+0000] {dag.py:4180} INFO - Setting next_dagrun for primeira_DAG_v1 to 2024-10-20 00:00:00+00:00, run_after=2024-10-21 00:00:00+00:00
+[2024-10-22T23:19:54.469+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lesson_1_primeira_dag_v1.py took 0.069 seconds
+[2024-10-22T23:20:24.854+0000] {processor.py:186} INFO - Started process (PID=2522) to work on /opt/airflow/dags/lesson_1_primeira_dag_v1.py
+[2024-10-22T23:20:24.855+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lesson_1_primeira_dag_v1.py for tasks to queue
+[2024-10-22T23:20:24.858+0000] {logging_mixin.py:190} INFO - [2024-10-22T23:20:24.858+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lesson_1_primeira_dag_v1.py
+[2024-10-22T23:20:24.872+0000] {processor.py:925} INFO - DAG(s) 'primeira_DAG_v1' retrieved from /opt/airflow/dags/lesson_1_primeira_dag_v1.py
+[2024-10-22T23:20:24.890+0000] {logging_mixin.py:190} INFO - [2024-10-22T23:20:24.889+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-22T23:20:24.909+0000] {logging_mixin.py:190} INFO - [2024-10-22T23:20:24.909+0000] {dag.py:4180} INFO - Setting next_dagrun for primeira_DAG_v1 to 2024-10-20 00:00:00+00:00, run_after=2024-10-21 00:00:00+00:00
+[2024-10-22T23:20:24.929+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lesson_1_primeira_dag_v1.py took 0.079 seconds
+[2024-10-22T23:20:55.704+0000] {processor.py:186} INFO - Started process (PID=2593) to work on /opt/airflow/dags/lesson_1_primeira_dag_v1.py
+[2024-10-22T23:20:55.705+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lesson_1_primeira_dag_v1.py for tasks to queue
+[2024-10-22T23:20:55.707+0000] {logging_mixin.py:190} INFO - [2024-10-22T23:20:55.707+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lesson_1_primeira_dag_v1.py
+[2024-10-22T23:20:55.722+0000] {processor.py:925} INFO - DAG(s) 'primeira_DAG_v1' retrieved from /opt/airflow/dags/lesson_1_primeira_dag_v1.py
+[2024-10-22T23:20:55.738+0000] {logging_mixin.py:190} INFO - [2024-10-22T23:20:55.738+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-22T23:20:55.764+0000] {logging_mixin.py:190} INFO - [2024-10-22T23:20:55.763+0000] {dag.py:4180} INFO - Setting next_dagrun for primeira_DAG_v1 to 2024-10-20 00:00:00+00:00, run_after=2024-10-21 00:00:00+00:00
+[2024-10-22T23:20:55.784+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lesson_1_primeira_dag_v1.py took 0.085 seconds
+[2024-10-22T23:21:25.898+0000] {processor.py:186} INFO - Started process (PID=2664) to work on /opt/airflow/dags/lesson_1_primeira_dag_v1.py
+[2024-10-22T23:21:25.899+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lesson_1_primeira_dag_v1.py for tasks to queue
+[2024-10-22T23:21:25.902+0000] {logging_mixin.py:190} INFO - [2024-10-22T23:21:25.901+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lesson_1_primeira_dag_v1.py
+[2024-10-22T23:21:25.917+0000] {processor.py:925} INFO - DAG(s) 'primeira_DAG_v1' retrieved from /opt/airflow/dags/lesson_1_primeira_dag_v1.py
+[2024-10-22T23:21:25.936+0000] {logging_mixin.py:190} INFO - [2024-10-22T23:21:25.936+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-22T23:21:25.954+0000] {logging_mixin.py:190} INFO - [2024-10-22T23:21:25.954+0000] {dag.py:4180} INFO - Setting next_dagrun for primeira_DAG_v1 to 2024-10-20 00:00:00+00:00, run_after=2024-10-21 00:00:00+00:00
+[2024-10-22T23:21:25.973+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lesson_1_primeira_dag_v1.py took 0.082 seconds
+[2024-10-22T23:21:56.761+0000] {processor.py:186} INFO - Started process (PID=2735) to work on /opt/airflow/dags/lesson_1_primeira_dag_v1.py
+[2024-10-22T23:21:56.761+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lesson_1_primeira_dag_v1.py for tasks to queue
+[2024-10-22T23:21:56.764+0000] {logging_mixin.py:190} INFO - [2024-10-22T23:21:56.764+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lesson_1_primeira_dag_v1.py
+[2024-10-22T23:21:56.778+0000] {processor.py:925} INFO - DAG(s) 'primeira_DAG_v1' retrieved from /opt/airflow/dags/lesson_1_primeira_dag_v1.py
+[2024-10-22T23:21:56.794+0000] {logging_mixin.py:190} INFO - [2024-10-22T23:21:56.794+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-22T23:21:56.814+0000] {logging_mixin.py:190} INFO - [2024-10-22T23:21:56.813+0000] {dag.py:4180} INFO - Setting next_dagrun for primeira_DAG_v1 to 2024-10-20 00:00:00+00:00, run_after=2024-10-21 00:00:00+00:00
+[2024-10-22T23:21:56.838+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lesson_1_primeira_dag_v1.py took 0.083 seconds
+[2024-10-22T23:22:27.853+0000] {processor.py:186} INFO - Started process (PID=2805) to work on /opt/airflow/dags/lesson_1_primeira_dag_v1.py
+[2024-10-22T23:22:27.854+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lesson_1_primeira_dag_v1.py for tasks to queue
+[2024-10-22T23:22:27.856+0000] {logging_mixin.py:190} INFO - [2024-10-22T23:22:27.856+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lesson_1_primeira_dag_v1.py
+[2024-10-22T23:22:27.869+0000] {processor.py:925} INFO - DAG(s) 'primeira_DAG_v1' retrieved from /opt/airflow/dags/lesson_1_primeira_dag_v1.py
+[2024-10-22T23:22:27.886+0000] {logging_mixin.py:190} INFO - [2024-10-22T23:22:27.886+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-22T23:22:27.907+0000] {logging_mixin.py:190} INFO - [2024-10-22T23:22:27.906+0000] {dag.py:4180} INFO - Setting next_dagrun for primeira_DAG_v1 to 2024-10-20 00:00:00+00:00, run_after=2024-10-21 00:00:00+00:00
+[2024-10-22T23:22:27.927+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lesson_1_primeira_dag_v1.py took 0.079 seconds
+[2024-10-22T23:22:59.042+0000] {processor.py:186} INFO - Started process (PID=2877) to work on /opt/airflow/dags/lesson_1_primeira_dag_v1.py
+[2024-10-22T23:22:59.043+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lesson_1_primeira_dag_v1.py for tasks to queue
+[2024-10-22T23:22:59.046+0000] {logging_mixin.py:190} INFO - [2024-10-22T23:22:59.045+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lesson_1_primeira_dag_v1.py
+[2024-10-22T23:22:59.058+0000] {processor.py:925} INFO - DAG(s) 'primeira_DAG_v1' retrieved from /opt/airflow/dags/lesson_1_primeira_dag_v1.py
+[2024-10-22T23:22:59.075+0000] {logging_mixin.py:190} INFO - [2024-10-22T23:22:59.075+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-22T23:22:59.098+0000] {logging_mixin.py:190} INFO - [2024-10-22T23:22:59.097+0000] {dag.py:4180} INFO - Setting next_dagrun for primeira_DAG_v1 to 2024-10-20 00:00:00+00:00, run_after=2024-10-21 00:00:00+00:00
+[2024-10-22T23:22:59.116+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lesson_1_primeira_dag_v1.py took 0.078 seconds
