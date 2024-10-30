@@ -1,0 +1,8 @@
+[2024-10-23T00:15:47.933+0000] {processor.py:186} INFO - Started process (PID=3866) to work on /opt/airflow/dags/lesson_5_dag_custom_operator.py
+[2024-10-23T00:15:47.934+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lesson_5_dag_custom_operator.py for tasks to queue
+[2024-10-23T00:15:47.936+0000] {logging_mixin.py:190} INFO - [2024-10-23T00:15:47.936+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lesson_5_dag_custom_operator.py
+[2024-10-23T00:15:47.961+0000] {logging_mixin.py:190} WARNING - /opt/airflow/dags/custom_operators/lesson_5_hello_operator.py:9 UserWarning: The `template_fields` value for HelloOperator is a string but should be a list or tuple of string. Wrapping it in a list for execution. Please update HelloOperator accordingly.
+[2024-10-23T00:15:47.963+0000] {processor.py:925} INFO - DAG(s) 'DAG_CustomOperator' retrieved from /opt/airflow/dags/lesson_5_dag_custom_operator.py
+[2024-10-23T00:15:47.978+0000] {logging_mixin.py:190} INFO - [2024-10-23T00:15:47.978+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-23T00:15:48.004+0000] {logging_mixin.py:190} INFO - [2024-10-23T00:15:48.003+0000] {dag.py:4180} INFO - Setting next_dagrun for DAG_CustomOperator to 2024-10-23 00:14:00+00:00, run_after=2024-10-23 00:15:00+00:00
+[2024-10-23T00:15:48.144+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lesson_5_dag_custom_operator.py took 0.215 seconds

@@ -1,0 +1,28 @@
+[2024-10-22T23:24:02.332+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-10-22T23:24:02.345+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: DAG_CustomOperator.hello scheduled__2024-10-22T23:23:00+00:00 [queued]>
+[2024-10-22T23:24:02.352+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: DAG_CustomOperator.hello scheduled__2024-10-22T23:23:00+00:00 [queued]>
+[2024-10-22T23:24:02.353+0000] {taskinstance.py:2865} INFO - Starting attempt 1 of 1
+[2024-10-22T23:24:02.365+0000] {taskinstance.py:2888} INFO - Executing <Task(HelloOperator): hello> on 2024-10-22 23:23:00+00:00
+[2024-10-22T23:24:02.371+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=412) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-10-22T23:24:02.373+0000] {standard_task_runner.py:72} INFO - Started process 414 to run task
+[2024-10-22T23:24:02.373+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'DAG_CustomOperator', 'hello', 'scheduled__2024-10-22T23:23:00+00:00', '--job-id', '420', '--raw', '--subdir', 'DAGS_FOLDER/lesson_5_dag_custom_operator.py', '--cfg-path', '/tmp/tmprv2c1t0v']
+[2024-10-22T23:24:02.374+0000] {standard_task_runner.py:105} INFO - Job 420: Subtask hello
+[2024-10-22T23:24:02.414+0000] {task_command.py:467} INFO - Running <TaskInstance: DAG_CustomOperator.hello scheduled__2024-10-22T23:23:00+00:00 [running]> on host 1da8eee663cb
+[2024-10-22T23:24:02.488+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='DAG_CustomOperator' AIRFLOW_CTX_TASK_ID='hello' AIRFLOW_CTX_EXECUTION_DATE='2024-10-22T23:23:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-10-22T23:23:00+00:00'
+[2024-10-22T23:24:02.490+0000] {logging_mixin.py:190} INFO - Task instance is in running state
+[2024-10-22T23:24:02.490+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2024-10-22T23:24:02.490+0000] {logging_mixin.py:190} INFO - Current task name:hello state:running start_date:2024-10-22 23:24:02.346327+00:00
+[2024-10-22T23:24:02.491+0000] {logging_mixin.py:190} INFO - Dag name:DAG_CustomOperator and current dag run status:running
+[2024-10-22T23:24:02.491+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-10-22T23:24:02.492+0000] {logging_mixin.py:190} INFO - Hello Gabriel Lima!
+[2024-10-22T23:24:02.510+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-10-22T23:24:02.511+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=DAG_CustomOperator, task_id=hello, run_id=scheduled__2024-10-22T23:23:00+00:00, execution_date=20241022T232300, start_date=20241022T232402, end_date=20241022T232402
+[2024-10-22T23:24:02.518+0000] {logging_mixin.py:190} INFO - Task instance in success state
+[2024-10-22T23:24:02.519+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2024-10-22T23:24:02.519+0000] {logging_mixin.py:190} INFO - Dag name:DAG_CustomOperator queued_at:2024-10-22 23:24:00.189106+00:00
+[2024-10-22T23:24:02.520+0000] {logging_mixin.py:190} INFO - Task hostname:1da8eee663cb operator:HelloOperator
+[2024-10-22T23:24:02.547+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-10-22T23:24:02.562+0000] {taskinstance.py:3900} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-10-22T23:24:02.564+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

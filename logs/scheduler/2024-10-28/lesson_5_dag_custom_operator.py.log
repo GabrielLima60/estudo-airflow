@@ -1,0 +1,48 @@
+[2024-10-28T14:43:40.405+0000] {processor.py:186} INFO - Started process (PID=49) to work on /opt/airflow/dags/lesson_5_dag_custom_operator.py
+[2024-10-28T14:43:40.407+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lesson_5_dag_custom_operator.py for tasks to queue
+[2024-10-28T14:43:40.410+0000] {logging_mixin.py:190} INFO - [2024-10-28T14:43:40.410+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lesson_5_dag_custom_operator.py
+[2024-10-28T14:43:40.442+0000] {logging_mixin.py:190} WARNING - /opt/airflow/dags/custom_operators/lesson_5_hello_operator.py:9 UserWarning: The `template_fields` value for HelloOperator is a string but should be a list or tuple of string. Wrapping it in a list for execution. Please update HelloOperator accordingly.
+[2024-10-28T14:43:40.451+0000] {processor.py:925} INFO - DAG(s) 'DAG_CustomOperator' retrieved from /opt/airflow/dags/lesson_5_dag_custom_operator.py
+[2024-10-28T14:43:40.481+0000] {logging_mixin.py:190} INFO - [2024-10-28T14:43:40.481+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-28T14:43:40.516+0000] {logging_mixin.py:190} INFO - [2024-10-28T14:43:40.515+0000] {dag.py:4180} INFO - Setting next_dagrun for DAG_CustomOperator to 2024-10-28 14:42:00+00:00, run_after=2024-10-28 14:43:00+00:00
+[2024-10-28T14:43:40.537+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lesson_5_dag_custom_operator.py took 0.141 seconds
+[2024-10-28T14:44:11.254+0000] {processor.py:186} INFO - Started process (PID=119) to work on /opt/airflow/dags/lesson_5_dag_custom_operator.py
+[2024-10-28T14:44:11.255+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lesson_5_dag_custom_operator.py for tasks to queue
+[2024-10-28T14:44:11.257+0000] {logging_mixin.py:190} INFO - [2024-10-28T14:44:11.257+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lesson_5_dag_custom_operator.py
+[2024-10-28T14:44:11.279+0000] {logging_mixin.py:190} WARNING - /opt/airflow/dags/custom_operators/lesson_5_hello_operator.py:9 UserWarning: The `template_fields` value for HelloOperator is a string but should be a list or tuple of string. Wrapping it in a list for execution. Please update HelloOperator accordingly.
+[2024-10-28T14:44:11.280+0000] {processor.py:925} INFO - DAG(s) 'DAG_CustomOperator' retrieved from /opt/airflow/dags/lesson_5_dag_custom_operator.py
+[2024-10-28T14:44:11.299+0000] {logging_mixin.py:190} INFO - [2024-10-28T14:44:11.298+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-28T14:44:11.319+0000] {logging_mixin.py:190} INFO - [2024-10-28T14:44:11.318+0000] {dag.py:4180} INFO - Setting next_dagrun for DAG_CustomOperator to 2024-10-28 14:43:00+00:00, run_after=2024-10-28 14:44:00+00:00
+[2024-10-28T14:44:11.337+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lesson_5_dag_custom_operator.py took 0.087 seconds
+[2024-10-28T14:44:41.515+0000] {processor.py:186} INFO - Started process (PID=190) to work on /opt/airflow/dags/lesson_5_dag_custom_operator.py
+[2024-10-28T14:44:41.516+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lesson_5_dag_custom_operator.py for tasks to queue
+[2024-10-28T14:44:41.519+0000] {logging_mixin.py:190} INFO - [2024-10-28T14:44:41.518+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lesson_5_dag_custom_operator.py
+[2024-10-28T14:44:41.546+0000] {logging_mixin.py:190} WARNING - /opt/airflow/dags/custom_operators/lesson_5_hello_operator.py:9 UserWarning: The `template_fields` value for HelloOperator is a string but should be a list or tuple of string. Wrapping it in a list for execution. Please update HelloOperator accordingly.
+[2024-10-28T14:44:41.548+0000] {processor.py:925} INFO - DAG(s) 'DAG_CustomOperator' retrieved from /opt/airflow/dags/lesson_5_dag_custom_operator.py
+[2024-10-28T14:44:41.563+0000] {logging_mixin.py:190} INFO - [2024-10-28T14:44:41.563+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-28T14:44:41.590+0000] {logging_mixin.py:190} INFO - [2024-10-28T14:44:41.589+0000] {dag.py:4180} INFO - Setting next_dagrun for DAG_CustomOperator to 2024-10-28 14:43:00+00:00, run_after=2024-10-28 14:44:00+00:00
+[2024-10-28T14:44:41.619+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lesson_5_dag_custom_operator.py took 0.112 seconds
+[2024-10-28T14:45:11.746+0000] {processor.py:186} INFO - Started process (PID=261) to work on /opt/airflow/dags/lesson_5_dag_custom_operator.py
+[2024-10-28T14:45:11.747+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lesson_5_dag_custom_operator.py for tasks to queue
+[2024-10-28T14:45:11.749+0000] {logging_mixin.py:190} INFO - [2024-10-28T14:45:11.749+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lesson_5_dag_custom_operator.py
+[2024-10-28T14:45:11.771+0000] {logging_mixin.py:190} WARNING - /opt/airflow/dags/custom_operators/lesson_5_hello_operator.py:9 UserWarning: The `template_fields` value for HelloOperator is a string but should be a list or tuple of string. Wrapping it in a list for execution. Please update HelloOperator accordingly.
+[2024-10-28T14:45:11.773+0000] {processor.py:925} INFO - DAG(s) 'DAG_CustomOperator' retrieved from /opt/airflow/dags/lesson_5_dag_custom_operator.py
+[2024-10-28T14:45:11.788+0000] {logging_mixin.py:190} INFO - [2024-10-28T14:45:11.788+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-28T14:45:11.812+0000] {logging_mixin.py:190} INFO - [2024-10-28T14:45:11.812+0000] {dag.py:4180} INFO - Setting next_dagrun for DAG_CustomOperator to 2024-10-28 14:44:00+00:00, run_after=2024-10-28 14:45:00+00:00
+[2024-10-28T14:45:11.832+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lesson_5_dag_custom_operator.py took 0.093 seconds
+[2024-10-28T14:45:42.533+0000] {processor.py:186} INFO - Started process (PID=339) to work on /opt/airflow/dags/lesson_5_dag_custom_operator.py
+[2024-10-28T14:45:42.534+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lesson_5_dag_custom_operator.py for tasks to queue
+[2024-10-28T14:45:42.537+0000] {logging_mixin.py:190} INFO - [2024-10-28T14:45:42.536+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lesson_5_dag_custom_operator.py
+[2024-10-28T14:45:42.567+0000] {logging_mixin.py:190} WARNING - /opt/airflow/dags/custom_operators/lesson_5_hello_operator.py:9 UserWarning: The `template_fields` value for HelloOperator is a string but should be a list or tuple of string. Wrapping it in a list for execution. Please update HelloOperator accordingly.
+[2024-10-28T14:45:42.570+0000] {processor.py:925} INFO - DAG(s) 'DAG_CustomOperator' retrieved from /opt/airflow/dags/lesson_5_dag_custom_operator.py
+[2024-10-28T14:45:42.587+0000] {logging_mixin.py:190} INFO - [2024-10-28T14:45:42.587+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-28T14:45:42.615+0000] {logging_mixin.py:190} INFO - [2024-10-28T14:45:42.615+0000] {dag.py:4180} INFO - Setting next_dagrun for DAG_CustomOperator to 2024-10-28 14:44:00+00:00, run_after=2024-10-28 14:45:00+00:00
+[2024-10-28T14:45:42.637+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lesson_5_dag_custom_operator.py took 0.111 seconds
+[2024-10-28T14:46:12.732+0000] {processor.py:186} INFO - Started process (PID=410) to work on /opt/airflow/dags/lesson_5_dag_custom_operator.py
+[2024-10-28T14:46:12.733+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lesson_5_dag_custom_operator.py for tasks to queue
+[2024-10-28T14:46:12.735+0000] {logging_mixin.py:190} INFO - [2024-10-28T14:46:12.735+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lesson_5_dag_custom_operator.py
+[2024-10-28T14:46:12.762+0000] {logging_mixin.py:190} WARNING - /opt/airflow/dags/custom_operators/lesson_5_hello_operator.py:9 UserWarning: The `template_fields` value for HelloOperator is a string but should be a list or tuple of string. Wrapping it in a list for execution. Please update HelloOperator accordingly.
+[2024-10-28T14:46:12.764+0000] {processor.py:925} INFO - DAG(s) 'DAG_CustomOperator' retrieved from /opt/airflow/dags/lesson_5_dag_custom_operator.py
+[2024-10-28T14:46:12.781+0000] {logging_mixin.py:190} INFO - [2024-10-28T14:46:12.781+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-28T14:46:12.801+0000] {logging_mixin.py:190} INFO - [2024-10-28T14:46:12.801+0000] {dag.py:4180} INFO - Setting next_dagrun for DAG_CustomOperator to 2024-10-28 14:45:00+00:00, run_after=2024-10-28 14:46:00+00:00
+[2024-10-28T14:46:12.821+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lesson_5_dag_custom_operator.py took 0.098 seconds

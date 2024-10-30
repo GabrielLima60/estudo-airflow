@@ -1,0 +1,42 @@
+[2024-10-28T14:43:40.867+0000] {processor.py:186} INFO - Started process (PID=54) to work on /opt/airflow/dags/lesson_2_python_operator_v1.py
+[2024-10-28T14:43:40.868+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lesson_2_python_operator_v1.py for tasks to queue
+[2024-10-28T14:43:40.871+0000] {logging_mixin.py:190} INFO - [2024-10-28T14:43:40.871+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lesson_2_python_operator_v1.py
+[2024-10-28T14:43:40.891+0000] {processor.py:925} INFO - DAG(s) 'python_operator_v1' retrieved from /opt/airflow/dags/lesson_2_python_operator_v1.py
+[2024-10-28T14:43:40.909+0000] {logging_mixin.py:190} INFO - [2024-10-28T14:43:40.909+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-28T14:43:40.930+0000] {logging_mixin.py:190} INFO - [2024-10-28T14:43:40.930+0000] {dag.py:4180} INFO - Setting next_dagrun for python_operator_v1 to 2024-10-20 15:23:00+00:00, run_after=2024-10-20 15:24:00+00:00
+[2024-10-28T14:43:40.948+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lesson_2_python_operator_v1.py took 0.086 seconds
+[2024-10-28T14:44:11.571+0000] {processor.py:186} INFO - Started process (PID=124) to work on /opt/airflow/dags/lesson_2_python_operator_v1.py
+[2024-10-28T14:44:11.572+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lesson_2_python_operator_v1.py for tasks to queue
+[2024-10-28T14:44:11.575+0000] {logging_mixin.py:190} INFO - [2024-10-28T14:44:11.575+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lesson_2_python_operator_v1.py
+[2024-10-28T14:44:11.591+0000] {processor.py:925} INFO - DAG(s) 'python_operator_v1' retrieved from /opt/airflow/dags/lesson_2_python_operator_v1.py
+[2024-10-28T14:44:11.608+0000] {logging_mixin.py:190} INFO - [2024-10-28T14:44:11.607+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-28T14:44:11.627+0000] {logging_mixin.py:190} INFO - [2024-10-28T14:44:11.627+0000] {dag.py:4180} INFO - Setting next_dagrun for python_operator_v1 to 2024-10-20 15:23:00+00:00, run_after=2024-10-20 15:24:00+00:00
+[2024-10-28T14:44:11.644+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lesson_2_python_operator_v1.py took 0.080 seconds
+[2024-10-28T14:44:41.866+0000] {processor.py:186} INFO - Started process (PID=195) to work on /opt/airflow/dags/lesson_2_python_operator_v1.py
+[2024-10-28T14:44:41.867+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lesson_2_python_operator_v1.py for tasks to queue
+[2024-10-28T14:44:41.869+0000] {logging_mixin.py:190} INFO - [2024-10-28T14:44:41.868+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lesson_2_python_operator_v1.py
+[2024-10-28T14:44:41.883+0000] {processor.py:925} INFO - DAG(s) 'python_operator_v1' retrieved from /opt/airflow/dags/lesson_2_python_operator_v1.py
+[2024-10-28T14:44:41.898+0000] {logging_mixin.py:190} INFO - [2024-10-28T14:44:41.898+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-28T14:44:41.926+0000] {logging_mixin.py:190} INFO - [2024-10-28T14:44:41.926+0000] {dag.py:4180} INFO - Setting next_dagrun for python_operator_v1 to 2024-10-20 15:23:00+00:00, run_after=2024-10-20 15:24:00+00:00
+[2024-10-28T14:44:41.944+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lesson_2_python_operator_v1.py took 0.084 seconds
+[2024-10-28T14:45:12.067+0000] {processor.py:186} INFO - Started process (PID=273) to work on /opt/airflow/dags/lesson_2_python_operator_v1.py
+[2024-10-28T14:45:12.068+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lesson_2_python_operator_v1.py for tasks to queue
+[2024-10-28T14:45:12.070+0000] {logging_mixin.py:190} INFO - [2024-10-28T14:45:12.070+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lesson_2_python_operator_v1.py
+[2024-10-28T14:45:12.082+0000] {processor.py:925} INFO - DAG(s) 'python_operator_v1' retrieved from /opt/airflow/dags/lesson_2_python_operator_v1.py
+[2024-10-28T14:45:12.097+0000] {logging_mixin.py:190} INFO - [2024-10-28T14:45:12.097+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-28T14:45:12.115+0000] {logging_mixin.py:190} INFO - [2024-10-28T14:45:12.115+0000] {dag.py:4180} INFO - Setting next_dagrun for python_operator_v1 to 2024-10-20 15:23:00+00:00, run_after=2024-10-20 15:24:00+00:00
+[2024-10-28T14:45:12.134+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lesson_2_python_operator_v1.py took 0.072 seconds
+[2024-10-28T14:45:43.038+0000] {processor.py:186} INFO - Started process (PID=344) to work on /opt/airflow/dags/lesson_2_python_operator_v1.py
+[2024-10-28T14:45:43.039+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lesson_2_python_operator_v1.py for tasks to queue
+[2024-10-28T14:45:43.041+0000] {logging_mixin.py:190} INFO - [2024-10-28T14:45:43.041+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lesson_2_python_operator_v1.py
+[2024-10-28T14:45:43.056+0000] {processor.py:925} INFO - DAG(s) 'python_operator_v1' retrieved from /opt/airflow/dags/lesson_2_python_operator_v1.py
+[2024-10-28T14:45:43.077+0000] {logging_mixin.py:190} INFO - [2024-10-28T14:45:43.077+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-28T14:45:43.123+0000] {logging_mixin.py:190} INFO - [2024-10-28T14:45:43.122+0000] {dag.py:4180} INFO - Setting next_dagrun for python_operator_v1 to 2024-10-20 15:23:00+00:00, run_after=2024-10-20 15:24:00+00:00
+[2024-10-28T14:45:43.145+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lesson_2_python_operator_v1.py took 0.112 seconds
+[2024-10-28T14:46:13.956+0000] {processor.py:186} INFO - Started process (PID=415) to work on /opt/airflow/dags/lesson_2_python_operator_v1.py
+[2024-10-28T14:46:13.957+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lesson_2_python_operator_v1.py for tasks to queue
+[2024-10-28T14:46:13.959+0000] {logging_mixin.py:190} INFO - [2024-10-28T14:46:13.959+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lesson_2_python_operator_v1.py
+[2024-10-28T14:46:13.971+0000] {processor.py:925} INFO - DAG(s) 'python_operator_v1' retrieved from /opt/airflow/dags/lesson_2_python_operator_v1.py
+[2024-10-28T14:46:13.986+0000] {logging_mixin.py:190} INFO - [2024-10-28T14:46:13.986+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-28T14:46:14.005+0000] {logging_mixin.py:190} INFO - [2024-10-28T14:46:14.005+0000] {dag.py:4180} INFO - Setting next_dagrun for python_operator_v1 to 2024-10-20 15:23:00+00:00, run_after=2024-10-20 15:24:00+00:00
+[2024-10-28T14:46:14.024+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lesson_2_python_operator_v1.py took 0.073 seconds

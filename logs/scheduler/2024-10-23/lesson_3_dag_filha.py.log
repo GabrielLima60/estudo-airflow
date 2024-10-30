@@ -1,0 +1,6 @@
+[2024-10-23T00:15:48.190+0000] {processor.py:186} INFO - Started process (PID=3868) to work on /opt/airflow/dags/lesson_3_dag_filha.py
+[2024-10-23T00:15:48.191+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lesson_3_dag_filha.py for tasks to queue
+[2024-10-23T00:15:48.193+0000] {logging_mixin.py:190} INFO - [2024-10-23T00:15:48.193+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/lesson_3_dag_filha.py
+[2024-10-23T00:15:48.207+0000] {processor.py:925} INFO - DAG(s) 'DAG_filha' retrieved from /opt/airflow/dags/lesson_3_dag_filha.py
+[2024-10-23T00:15:48.225+0000] {logging_mixin.py:190} INFO - [2024-10-23T00:15:48.225+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-23T00:15:48.396+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lesson_3_dag_filha.py took 0.211 seconds
